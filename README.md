@@ -167,7 +167,7 @@ final_image = img.copy()
 cv2.line(final_image, (0, 0), (width - 1, height - 1), (255, 0, 0), 2)
 cv2.circle(final_image, (width // 2, height // 2), min(width, height) // 4, (0, 255, 0), 5)
 cv2.rectangle(final_image, (0, 0), (width - 1, height - 1), (0, 0, 255), 5)
-cv2.putText(final_image, "POOJA SRI P", (30, min(100, height - 10)),
+cv2.putText(final_image, "SAMRITHA R", (30, min(100, height - 10)),
             cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 255), 3)
 
 cv2.imwrite('final_modified_image.jpeg', final_image)
